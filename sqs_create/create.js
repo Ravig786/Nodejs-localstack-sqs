@@ -40,6 +40,7 @@ module.exports = {
         // console.log(data.Messages);
         // console.log("-----Message End------");
         data.Messages.forEach((msg) => {
+          //console.log(msg); // obj
           console.log(msg.Body);
 
           // //Delete the message 
