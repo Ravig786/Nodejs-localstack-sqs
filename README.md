@@ -4,9 +4,9 @@ Nodejs-localstack-sqs
 ## To run the project
 
 ### Prerequisite
->>> `Docker` -> `https://www.docker.com`
+> `Docker` -> `https://www.docker.com`
 
->>> `Nodejs` -> `https://nodejs.org/en`
+> `Nodejs` -> `https://nodejs.org/en`
 
 >>`cmd` -> `docker-compose up -d`
 
