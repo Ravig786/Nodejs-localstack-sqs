@@ -41,17 +41,19 @@ module.exports = {
         // console.log("-----Message End------");
         data.Messages.forEach((msg) => {
           console.log(msg.Body);
-          var deleteParams = {
-            QueueUrl: QUEUE_URL,
-            ReceiptHandle: msg.ReceiptHandle,
-          };
-          SQS.deleteMessage(deleteParams, function (err, data) {
-            if (err) {
-              console.log("Delete Error", err);
-            } else {
-              console.log("Message Deleted", data);
-            }
-          });
+
+          // //Delete the message 
+          // var deleteParams = {
+          //   QueueUrl: QUEUE_URL,
+          //   ReceiptHandle: msg.ReceiptHandle,
+          // };
+          // SQS.deleteMessage(deleteParams, function (err, data) {
+          //   if (err) {
+          //     console.log("Delete Error", err);
+          //   } else {
+          //     console.log("Message Deleted", data);
+          //   }
+          // });
         });
       }
     });
