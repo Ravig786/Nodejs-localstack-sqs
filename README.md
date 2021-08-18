@@ -13,6 +13,4 @@ Nodejs-localstack-sqs
 
 >>`cmd` ->  `node sqs_send_msg.js`
 
->>`cmd` ->  `node sqs_send_msg.js`
-
 >>`cmd` ->  `node sqs_getMessage.js`
