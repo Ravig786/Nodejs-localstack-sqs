@@ -1,12 +1,12 @@
 # Nodejs-localstack-sqs
 Nodejs-localstack-sqs
 
-## To run the project
-
 ### Prerequisite
 > `Docker` -> `https://www.docker.com`
 
 > `Nodejs` -> `https://nodejs.org/en`
+
+## To run the project
 
 >>`cmd` -> `docker-compose up -d`
 
